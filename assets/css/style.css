@@ -211,7 +211,9 @@ main .sous-titre {
   overflow-x: scroll;
   gap: 15px;
 }
-
+.destinations .photo-carrousel::-webkit-scrollbar {
+  display: none;
+}
 .destinations .photo-carrousel img {
   width: 270px;
   height: 270px;
@@ -273,9 +275,19 @@ main .sous-titre {
 .se-divertir .right-part {
   display: flex;
   flex-shrink: 0;
+  overflow: hidden;
   overflow-x: scroll;
   gap: 13px;
   flex: 3;
+}
+.se-reposer .right-part::-webkit-scrollbar {
+  display: none;
+}
+.se-divertir .right-part::-webkit-scrollbar {
+  display: none;
+}
+.se-restaurer .right-part::-webkit-scrollbar {
+  display: none;
 }
 .photo-se {
   width: 270px;
