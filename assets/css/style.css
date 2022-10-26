@@ -436,3 +436,8 @@ footer .container .links {
 .description .right-block .top-block button:hover {
   opacity: 0.8;
 }
+footer .container .inputs {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
